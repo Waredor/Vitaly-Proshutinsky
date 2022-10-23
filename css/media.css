@@ -2,6 +2,10 @@
 
 @media only screen and (max-width: 430px) {
 
+	.clear{
+		clear:both;
+	}
+
 	html{
 		box-sizing: border-box;
 		background: #272323;
@@ -244,7 +248,510 @@
 
 } 
 
+/*desktop HD 720p*/
 
+@media only screen and (min-width: 720px) and (max-width: 1439px) {
+/*
+	.clear{
+		clear:both;
+	}
 
-/*1600x900*/
+	html{
+		box-sizing: border-box;
+		background: #272323;
+	}
+	
+	*, *::before, *::after{
+		box-sizing: inherit;
+	}
+	
+	body {
+		font-family: 'Roboto-Regular';
+		font-style: normal;
+		line-height: 1.2;
+		font-weight: normal;
+		color: white; 
+		font-size: 8px;
+	}
+	
+	.header_wrapper{ 
+		width: 90rem;
+		margin: 0 auto;
+	}
+		
+	.wrapper {
+		width: 90rem;
+		margin: 0 auto;
+	}
+	
+	.header {
+		width: 100%;
+		background: linear-gradient(180deg, #3C3636 61.46%, #3C3636 83.51%, rgba(60, 54, 54, 0) 100%);
+		height: 7.5rem;
+	}
+		
+	.header_text{
+		position:absolute;
+		margin-top: 2.0625rem;
+		margin-left: 2.4375rem;
+		width: 25rem;
+		height: 3rem;
+		font-family: 'Philosopher';
+		font-weight: 400;
+		font-style: normal;
+		font-size: 3em;
+		background-color: blueviolet;
+	}
 
+	.MyName {
+		position: relative;
+		color: #ABAD42;
+		width: 25rem;
+		height: 2.5rem;
+	}
+	
+	.menu {
+		position: relative;
+		float: right;
+		width: 36.125rem;
+		height: 1.75rem;
+		margin-top: 2.375rem;
+		margin-right: 2.5rem;
+		background-color: lawngreen;
+	}
+
+	.header_list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 3.5rem;
+		width: 36.125rem;
+		height: 1.75rem;
+		top: 2.375rem;  
+	}
+
+	.header_link_gold {
+		width: 4.0625rem;
+		height: 1.75rem;
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+		font-style: normal;
+		font-weight: 400;
+		color: #ABAD42;
+		text-decoration: none;
+	}
+
+	.header_link {
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+		font-style: normal;
+		font-weight: 400;
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+	
+	.photo {
+		position: absolute;
+		margin-left: 53.4375rem;
+		top: 15.875rem;
+		width: 20rem;
+		height: 23rem;
+		background-color: darkorange;
+	}
+	
+	.text {
+		width: 20rem;
+		margin-top: 1rem;
+		height: 27rem;
+		float: left;
+		background-color: coral;
+	}
+
+  .goldbord {
+		margin: 0 auto;
+		width: 25rem;
+		height: 30.5rem;
+		top: 0px;
+		background: #ABAD42;
+	}
+	
+	.meimg {
+		position: relative;
+		margin: 0 auto;
+		width: 23.75rem;
+		height: 29.25rem;
+		top: .625rem;
+		border: 10px solid #EEEEEE;
+	}
+	
+	.me {
+	width: 22.5rem;
+	height: 28rem;
+	top: 0rem;
+	}
+
+	.frame3 {
+		box-sizing: border-box;
+		position: absolute;
+		margin: 0 auto;
+		width: 16.875rem;
+		height: 5.5625rem;
+		margin-left: 26.125rem;
+		top: 41.5625rem;
+		border: .25rem solid #ABAD42;
+		border-radius: .625rem;
+	}
+	
+	.frame2 {
+		box-sizing: border-box;
+		position:absolute;
+		width: 16.875rem;
+		height: 5.5625rem;
+		margin-left: 6.8125rem;
+		top: 41.5625rem;
+
+	
+		background: #A79D4A;
+		border-radius: .625rem;
+	}
+
+	.hire {
+		position:relative;
+		margin: 0 auto;
+		top: 0.6rem;
+		width: 9.6875rem;
+		height: 4.1875rem;
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 3rem;
+	
+		background-color: aqua;
+
+	}
+	
+	.hire_me {
+		position:relative;
+		margin-left: 1rem;
+		top: 1rem;
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 3rem;
+		width: 9.6875rem;
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+
+	.cv {
+		position: relative;
+		margin: 0 auto;
+		width: 15.625rem;
+		height: 4.1875rem;
+		background-color: aqua;
+	}
+	
+	.download_cv {
+		position: relative;
+		margin-left: 2rem;
+		top: 1rem;
+		width: 14rem;
+		height: 47px;
+	
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 47px;
+	
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+
+	.hello {
+		position: absolute;
+		margin-left: 6.8125rem;
+		top: 17.5rem;
+		font-family: 'Roboto-Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2.5em;
+		color: #F0EEEE;
+	}
+
+	.im_vitaly {
+		position: absolute;
+		margin-left: 6.8125rem;
+		top: 20.125rem;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 6.25em;	
+		color: #F0EEEE;
+	}
+
+	.frontend_developer {
+		position: absolute;
+		margin-left: 6.8125rem;
+		top: 27.1875rem;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 3.75rem;
+		color: #ABAD42;
+	}*/
+
+} 
+
+/*desktop UHD 1080p*/
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+
+	.clear{
+		clear:both;
+	}
+
+	html{
+		box-sizing: border-box;
+		background: #272323;
+	}
+	
+	*, *::before, *::after{
+		box-sizing: inherit;
+	}
+	
+	body {
+		font-family: 'Roboto-Regular';
+		font-style: normal;
+		line-height: 1.2;
+		font-weight: normal;
+		color: white; 
+		font-size: 16px;
+	}
+	
+	.header_wrapper{ 
+		width: 90rem;
+		margin: 0 auto;
+	}
+		
+	.wrapper {
+		width: 90rem;
+		margin: 0 auto;
+	}
+	
+	.header {
+		background: linear-gradient(180deg, #3C3636 61.46%, #3C3636 83.51%, rgba(60, 54, 54, 0) 100%);
+		width: 100%;
+		height: 7.5rem;
+	}
+		
+	.header_text{
+		position:absolute;;
+		margin-top: 2.0625rem;
+		margin-left: 2.4375rem;
+		width: 25rem;
+		height: 3rem;
+		font-family: 'Philosopher';
+		font-weight: 400;
+		font-style: normal;
+		font-size: 3em;
+		/*background-color: blueviolet;*/
+	}
+
+	.MyName {
+		position: relative;
+		color: #ABAD42;
+		width: 25rem;
+		height: 2.5rem;
+	}
+	
+	.menu {
+		position: relative;
+		float: right;
+		width: 36.125rem;
+		height: 1.75rem;
+		margin-top: 2.375rem;
+		margin-right: 2.5rem;
+		/*background-color: lawngreen;*/
+	}
+
+	.header_list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 3.5rem;
+		width: 36.125rem;
+		height: 1.75rem;
+		top: 2.375rem;  
+	}
+
+	.header_link_gold {
+		width: 4.0625rem;
+		height: 1.75rem;
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+		font-style: normal;
+		font-weight: 400;
+		color: #ABAD42;
+		text-decoration: none;
+	}
+
+	.header_link {
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+		font-style: normal;
+		font-weight: 400;
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+	
+	.photo {
+		position: absolute;
+		margin-left: 53.4375rem;
+		top: 15.875rem;
+		width: 20rem;
+		height: 23rem;
+		/*background-color: darkorange;*/
+	}
+	
+	.text {
+		width: 20rem;
+		margin-top: 1rem;
+		height: 27rem;
+		float: left;
+		/*background-color: coral;*/
+	}
+
+  .goldbord {
+		margin: 0 auto;
+		width: 25rem;
+		height: 30.5rem;
+		top: 0px;
+		background: #ABAD42;
+	}
+	
+	.meimg {
+		position: relative;
+		margin: 0 auto;
+		width: 23.75rem;
+		height: 29.25rem;
+		top: .625rem;
+		border: 10px solid #EEEEEE;
+	}
+	
+	.me {
+	width: 22.5rem;
+	height: 28rem;
+	top: 0rem;
+	}
+
+	.frame3 {
+		box-sizing: border-box;
+		position: absolute;
+		margin: 0 auto;
+		width: 16.875rem;
+		height: 5.5625rem;
+		margin-left: 26.125rem;
+		top: 41.5625rem;
+		border: .25rem solid #ABAD42;
+		border-radius: .625rem;
+	}
+	
+	.frame2 {
+		box-sizing: border-box;
+		position:absolute;
+		width: 16.875rem;
+		height: 5.5625rem;
+		margin-left: 6.8125rem;
+		top: 41.5625rem;
+
+	
+		background: #A79D4A;
+		border-radius: .625rem;
+	}
+
+	.hire {
+		position:relative;
+		margin: 0 auto;
+		top: 0.6rem;
+		width: 9.6875rem;
+		height: 4.1875rem;
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 3rem;
+	
+		/*background-color: aqua;*/
+
+	}
+	
+	.hire_me {
+		position:relative;
+		margin-left: 1rem;
+		top: 0.5rem;
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 3rem;
+		width: 9.6875rem;
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+
+	.cv {
+		position: relative;
+		margin: 0 auto;
+		width: 15.625rem;
+		height: 4.1875rem;
+		/*background-color: aqua;*/
+	}
+	
+	.download_cv {
+		position: relative;
+		margin-left: 2rem;
+		top: 0.9rem;
+		width: 14rem;
+		height: 47px;
+	
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 47px;
+	
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+
+	.hello {
+		position: absolute;
+		margin-left: 6.8125rem;
+		top: 17.5rem;
+		font-family: 'Roboto-Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2.5em;
+		color: #F0EEEE;
+	}
+
+	.im_vitaly {
+		position: absolute;
+		margin-left: 6.8125rem;
+		top: 20.125rem;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 6.25em;	
+		color: #F0EEEE;
+	}
+
+	.frontend_developer {
+		position: absolute;
+		margin-left: 6.8125rem;
+		top: 27.1875rem;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 3.75rem;
+		color: #ABAD42;
+	}
+
+} 
