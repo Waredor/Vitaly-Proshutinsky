@@ -1,0 +1,250 @@
+/*mobile L 425px*/
+
+@media only screen and (max-width: 430px) {
+
+	html{
+		box-sizing: border-box;
+		background: #272323;
+	}
+	
+	*, *::before, *::after{
+		box-sizing: inherit;
+	}
+	
+	body {
+		font-family: 'Roboto-Regular';
+		font-style: normal;
+		line-height: 1.2;
+		font-weight: normal;
+		color: white; 
+		font-size: 16px;
+	}
+	
+	.header_wrapper{ 
+		width: 20rem;
+		margin: 0 auto;
+	}
+		
+	.wrapper {
+		width: 20rem;
+		margin: 0 auto;
+	}
+	
+	.header {
+		background: linear-gradient(180deg, #3C3636 61.46%, #3C3636 83.51%, rgba(60, 54, 54, 0) 100%);
+		width: 100%;
+		height: 8rem;
+	}
+		
+	.header_text{
+		position:absolute;;
+		margin-top: 0.5rem;
+		margin-left: 1.5rem;
+		width: 17rem;
+		height: 2.5rem;
+		top:	1rem;
+		font-family: 'Philosopher';
+		font-weight: 400;
+		font-style: normal;
+		font-size: 2em;
+		/*background-color: blueviolet;*/
+	}
+
+	.MyName {
+		position: relative;
+		color: #ABAD42;
+		width: 17rem;
+		height: 3.375rem;
+	}
+	
+	.menu {
+		position: absolute;
+		margin-left: 1.5rem;
+		width: 17rem;
+		height: 2rem;
+		margin-top: 5rem;
+		/*background-color: lawngreen;*/
+	}
+
+	.header_list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1.2rem;
+		width: 17rem;
+		height: 1.75rem;
+		top: 2.375rem;  
+	}
+
+	.header_link_gold {
+		width: 4.0625rem;
+		height: 1.75rem;
+		font-size: 0.8rem;
+		line-height: 1.75rem;
+		font-style: normal;
+		font-weight: 400;
+		color: #ABAD42;
+		text-decoration: none;
+	}
+
+	.header_link {
+		font-size: 0.8rem;
+		line-height: 1.75rem;
+		font-style: normal;
+		font-weight: 400;
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+	
+	.photo {
+		width: 20rem;
+		margin-top: 1rem;
+		height: 23rem;
+		float: right;
+		/*background-color: darkorange;*/
+	}
+	
+	.text {
+		width: 20rem;
+		margin-top: 1rem;
+		height: 27rem;
+		float: left;
+		/*background-color: coral;*/
+	}
+
+  .goldbord {
+		margin: 0 auto;
+		width: 18.75rem;
+		height: 23rem;
+		top: 0px;
+		background: #ABAD42;
+	}
+	
+	.meimg {
+		position: relative;
+		margin: 0 auto;
+		width: 17.5rem;
+		height: 21.65rem;
+		top: .625rem;
+		border: 10px solid #EEEEEE;
+	}
+	
+	.me {
+	width: 16.25rem;
+	height: 20.5rem;
+	top: 0rem;
+	}
+
+	.frame3 {
+		box-sizing: border-box;
+		position: relative;
+		margin: 0 auto;
+		width: 16.875rem;
+		height: 5.5625rem;
+		top: 8rem;
+		border: .25rem solid #ABAD42;
+		border-radius: .625rem;
+	}
+	
+	.frame2 {
+		box-sizing: border-box;
+		position:relative;
+		margin: 0 auto;
+		width: 16.875rem;
+		height: 5.5625rem;
+		top: -4rem;
+	
+		background: #A79D4A;
+		border-radius: .625rem;
+	}
+
+	.hire {
+		position:relative;
+		margin: 0 auto;
+		top: 0.6rem;
+		width: 9.6875rem;
+		height: 4.1875rem;
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 3rem;
+	
+		/*background-color: aqua;*/
+
+	}
+	
+	.hire_me {
+		position:relative;
+		margin-left: 1rem;
+		top: 0.5rem;
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 3rem;
+		width: 9.6875rem;
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+
+	.cv {
+		position: relative;
+		margin: 0 auto;
+		width: 15.625rem;
+		height: 4.1875rem;
+		/*background-color: aqua;*/
+	}
+	
+	.download_cv {
+		position: relative;
+		margin-left: 2rem;
+		top: 0.9rem;
+		width: 14rem;
+		height: 47px;
+	
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 47px;
+	
+		color: #F0EEEE;
+		text-decoration: none;
+	}
+
+	.hello {
+		position: relative;
+		margin-left: 2.5rem;
+		font-family: 'Roboto-Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 4em;
+		margin-bottom: .1em;
+		color: #F0EEEE;
+	}
+
+	.im_vitaly {
+		position: relative;
+		margin-left: 2.5rem;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 3em;	
+		margin-bottom: .3em;
+		color: #F0EEEE;
+	}
+
+	.frontend_developer {
+		position: relative;
+		margin-left: 1rem;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		color: #ABAD42;
+	}
+
+} 
+
+
+
+/*1600x900*/
+

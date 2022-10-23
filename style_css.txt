@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Our style*/
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto-Regular'),
+	     url('../fonts/Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'RobotoSlab-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: local('RobotoSlab-Regular'),
+	     url('../fonts/RobotoSlab-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Philosopher';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Philosopher'),
+	     url('../fonts/Philosopher.woff') format('woff');
+}
+
+	html{
+		box-sizing: border-box;
+		background: #272323;
+	}
+
+	*, *::before, *::after{
+		box-sizing: inherit;
+	}
+
+	body {
+		font-family: 'Roboto-Regular';
+		font-style: normal;
+		line-height: 1.2;
+		font-weight: normal;
+		color: white; 
+	}
+
+	.header_wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end;
+		justify-content: space-between;
+  }
+
+	.header {
+		position: absolute;
+		background: linear-gradient(180deg, #3C3636 61.46%, #3C3636 83.51%, rgba(60, 54, 54, 0) 100%);
+	}
+
+
+	.header_list {
+	  display: flex;
+		flex-wrap: wrap;
+		position: absolute;
+	}
+	
+	.MyName {
+		position: absolute;
+	
+		font-family: 'Philosopher';
+		font-weight: 400;
+		font-style: normal;
+	/* identical to box height */
+	
+	
+	color: #ABAD42;
+	
+	}
+	
+	.header_link_gold {
+		font-style: normal;
+		font-weight: 400;
+		color: #ABAD42;
+		text-decoration: none;
+	
+	}
+	
+	.header_link {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 28px;
+	
+		color: #F0EEEE;
+		text-decoration: none;
+	
+	}
+	
+	.frame3 {
+		box-sizing: border-box;
+	
+		position: absolute;
+		width: 270px;
+		height: 89px;
+		left: 498px;
+		top: 605px;
+	
+		border: 2px solid #ABAD42;
+		border-radius: 10px;
+	}
+	
+	.frame2 {
+		box-sizing: border-box;
+	
+		position: absolute;
+		width: 226px;
+		height: 89px;
+		left: 189px;
+		top: 605px;
+	
+	background: #A79D4A;
+	border-radius: 10px;
+	}
+	
+	.cv {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 10px;
+		gap: 10px;
+	
+		position: absolute;
+		width: 250px;
+		height: 67px;
+		left: 20px;
+		top: 11px;
+	}
+	
+	.download_cv {
+		width: 224px;
+		height: 47px;
+	
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 47px;
+	
+		color: #F0EEEE;
+		text-decoration: none;
+	
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	}
+	
+	.hire {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 10px;
+		gap: 10px;
+	
+		position: absolute;
+		width: 155px;
+		height: 67px;
+		left: 40px;
+		top: 11px;
+	}
+	
+	.hire_me {
+		width: 135px;
+	height: 47px;
+	
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 47px;
+	
+		color: #F0EEEE;
+		text-decoration: none;
+	
+	
+	/* Inside auto layout */
+	
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+	
+	.hello {
+		position: absolute;
+	/* identical to box height */
+	
+		font-family: 'Roboto-Slab';
+		font-style: normal;
+		font-weight: 400;
+	
+		color: #F0EEEE;
+	}
+	
+	.im_vitaly {
+		position: absolute;
+		
+		font-style: normal;
+		font-weight: 400;
+		
+		color: #F0EEEE;
+	}
+	
+	.frontend_developer {
+		position: absolute;
+
+		font-style: normal;
+		font-weight: 400;
+	
+		color: #ABAD42;
+	}
+
+.goldbord {
+	position: absolute;
+	width: 360px;
+	height: 440px;
+	left: 940px;
+	top: 250px;
+		
+	background: #ABAD42;
+	}
+
+.meimg {
+position: absolute;
+width: 339px;
+height: 418px;
+left: 950px;
+top: 260px;
+border: 10px solid #EEEEEE;
+
+
+}
+
+.me {
+position: absolute;
+width: 320px;
+height: 400px;
+left: 960px;
+top: 269px;
+
+
+}

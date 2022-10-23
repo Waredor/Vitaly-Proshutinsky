@@ -1,0 +1,109 @@
+/*mobile L 425px*/
+
+@media only screen and (max-width: 430px) {
+
+  html{
+		width: 100%;
+		max-width: 430px;
+		overflow-x: hidden;
+	}
+
+
+  body {
+		font-size: 16px;
+    overflow-x: hidden;
+	}
+
+  .header_wrapper{ 
+		width: 20rem;
+	}
+	
+	/*.wrapper {
+		width: 20rem;
+	}*/
+	
+	.header {
+		width: 100%;
+		height: 7.5rem;
+	}
+	
+	.header_text{
+		margin-left: 1.5rem;
+		width: 17rem;
+		height: 2.5rem;
+		top:	1rem;
+		font-size: 2em;
+		/*background-color: blueviolet;*/
+	}
+
+	.MyName {
+		width: 17rem;
+		height: 3.375rem;
+	}
+	
+	.menu {
+    margin: 0 auto;
+		width: 20rem;
+		height: 1.75rem;
+		top:2.75rem;
+		/*background-color: lawngreen;*/
+	}
+
+	.header_list {
+    margin-left: 1rem;
+		gap: 0.8rem;
+		width: 20rem;
+		height: 1.75rem;
+		top: 2.375rem; 
+	}
+	
+	.header_link_gold {
+		width: 4.0625rem;
+		height: 1.75rem;
+		font-size: 1rem;
+		line-height: 1.75rem;
+	}
+
+	.header_link {
+		font-size: 1rem;
+		line-height: 1.75rem;
+	}
+	
+  .photo {
+    position:absolute;
+    margin: 0 auto;
+		width: 99%;
+		margin-top: 2rem;
+		height: 23rem;
+	}
+
+	.text {
+    position: absolute;
+    float: left;
+		margin-top: 2rem;
+		height: 23rem;
+	}
+
+	.goldbord {
+		width: 18.75rem;
+		height: 23rem;
+		top: 0px;
+		}
+	
+	.meimg {
+	width: 17.5rem;
+	height: 21.65rem;
+	top: .625rem;
+	}
+	
+	.me {
+	width: 16.25rem;
+	height: 20.5rem;
+	top: 0rem;
+	}
+} 
+
+
+
+/*1600x900*/
+
